@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgb(190, 216, 224), lightpink);
+}
+
+table{
+    width: 850px;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 5px 10px gray;
+}
+
+th, td{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th{
+    background: blue;
+    color: white;
+}
